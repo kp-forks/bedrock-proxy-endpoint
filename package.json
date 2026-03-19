@@ -1,6 +1,6 @@
 {
   "name": "bedrock-proxy-endpoint",
-  "version": "2.8.0",
+  "version": "2.10.1",
   "description": "🔀 Bedrock Proxy Endpoint ⇢ Spin up your own custom OpenAI API server endpoint for easy AWS Bedrock inference (using standard `baseUrl`, and `apiKey` params)",
   "main": "server.js",
   "type": "module",
@@ -34,7 +34,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bedrock-wrapper": "^2.10.0",
+    "bedrock-wrapper": "^2.10.1",
     "body-parser": "^2.2.1",
     "dotenv": "^17.2.3",
     "express": "^4.22.1",
@@ -46,6 +46,10 @@
     "husky": "^9.1.7",
     "supertest": "^7.1.4",
     "vitest": "^4.0.15"
+  },
+  "overrides": {
+    "flatted": ">=3.4.2",
+    "fast-xml-parser": ">=5.5.7"
   },
   "repository": {
     "type": "git",
